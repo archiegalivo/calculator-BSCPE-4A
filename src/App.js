@@ -114,6 +114,10 @@ function App() {
         <CalcButton value="0" onClick={numberClickHandler}/>
         <CalcButton value="=" onClick={equalClickHandler}/>
         <CalcButton value="/" onClick={operClickHandler}/>
+        <CalcButton value="DEL" onClick={operClickHandler}/>
+        <CalcButton value="On/Off" onClick={operClickHandler}/>
+        <CalcButton value="%" onClick={operClickHandler}/>
+        <CalcButton value="^" onClick={operClickHandler}/>
       </div>  
     </div>  
   );
